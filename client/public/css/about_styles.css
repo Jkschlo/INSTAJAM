@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* navbar space */
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* logo formatting */
+#navbar__pic {
+    background-color: #4837ff;
+    background-image: linear-gradient(to top, #4837ff 0%, #905fd0 150%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    mask-clip: padding-box;
+    -moz-backgroun-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-left: -50px;
+}
+
+/* navbar "INSTAJAM" formatting */
+#navbar__logo {
+    background-color: #905fd0;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    mask-clip: padding-box;
+    -moz-backgroun-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-left: -445px;
+    /* Moves Logo next to the pic */
+}
+
+/* menu items formatting */
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -100px;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+/* link look */
+.navbar__links {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+/* button formatting */
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+/* button display */
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #905fd0;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: #4837ff;
+    background-image: linear-gradient(to top, #4837ff 0%, #905fd0 150%);
+}
+
+.navbar__links:hover {
+    color: #905fd0;
+    transition: all 0.3s ease;
+}
+
+/* Hero Section CSS */
+
+.main {
+    background-color: #141414;
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+/* Format "INSTAJAM" */
+.main__content h1 {
+    font-size: 7rem;
+    text-align: center;
+    background-color: #905fd0;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 150%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: none;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-top: -10rem;
+}
+
+/* Format "The playlist playground." */
+.main__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.main__img--container {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#main__img {
+    height: 325px;
+    width: 375px;
+}
+
+
+/* Footer CSS */
+
+.footer__container {
+    background-color: #141414;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer logo formatting */
+#footer__logo {
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.footer__links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__link--wrapper {
+    display: flex;
+}
+
+/* formats footer link items in column and correct spacing */
+.footer__link--items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+/* adds a bit of space between header and items */
+.footer__link--items h2 {
+    margin-bottom: 16px;
+}
+
+/* formats h2 */
+.footer__link--items>h2 {
+    font-size: 1.5rem;
+    background-color: #905fd0;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 150%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: none;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.footer__link--items a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+/* Social Icons */
+
+.social__icon--link {
+    color: white;
+    font-size: 24px;
+}
+
+/* add space between footer elements */
+.social__media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+/* footer line up, center on screen */
+.social__media--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+/* social media formatting */
+.social__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+/* logo formatting */
+.social__logo {
+    color: white;
+    justify-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+/* footer color */
+.website__rights {
+    color: white;
+}

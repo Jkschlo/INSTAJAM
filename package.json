@@ -1,0 +1,24 @@
+{
+  "name": "jschlosser-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaristGormanly/jschlosser-project.git"
+  },
+  "author": "Jackson Schlosser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaristGormanly/jschlosser-project/issues"
+  },
+  "homepage": "https://github.com/MaristGormanly/jschlosser-project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  }
+}
