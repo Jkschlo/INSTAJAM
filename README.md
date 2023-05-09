@@ -36,7 +36,9 @@ You can run the web app with the following commands:
 2. Make a copy of the .env.example file called .env in the project home directory 
 3. In the .env file: 
     * Edit Postgres settings to connect to your database server
-4. Save your .env file
+    * Save your .env file
+4. Navigate into postServices.js file server -> services -> postService
+    * Edit "YOUR_PG_PASS" to your Postgres password
 5. Install dependencies 
 > npm i
 6. Start the service
