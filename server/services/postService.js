@@ -7,7 +7,7 @@ const pool = new Pool({
   user: "postgres",
   host: "localhost",
   database: "instajam",
-  password: "656OMGpass", //replace with your postgres password here
+  password: "YOUR_PG_PASS", //replace with your postgres password here
   port: 5432,
 });
 
